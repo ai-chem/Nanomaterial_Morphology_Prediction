@@ -1,0 +1,8 @@
+enc_out_dim: 4096
+enc_type: default
+first_conv: false
+input_height: 128
+kl_coeff: 0.01
+latent_dim: 4096
+lr: 0.001
+maxpool1: false
