@@ -8,15 +8,15 @@ For that, we first generated a new multi-modal dataset that is double the size o
 
 ## Folders
 
-- Classical_ML - This folder contains the code to run a pipline to calculate the prediction accuracies of classical machine learning models. The code is launched through classification_results.ipynb. The folder also contains the results in the corresponding .csv files, in particular for different test and training splits. Checkpoints for each model are also in the corresponding folders.
-- Dataset - This folder contains the original labeled and unlabeled dataset, templates for texts of syntheses, and original scanning electron microscope images of nanomaterials. Also here is one of the augmented datasets for building text-to-image models, but the other datasets used in text-to-image can be obtained using the original one using scripts for ImageJ.
-- Feature_selection - This folder contains a notebook for performing statistical tests and data analysis on a tabular dataset.
-- ImageJ_scripts - Here are scripts for ImageJ that allow you to segment your source images (Segmentation.ijm), then augment them by adding different variations in brightness and sharpness (Augmentations.ijm), and add rotations (Rotations.ijm).
-- LLM_dataset_preparation - Here is a notebook for preparing the dataset for use by large language models, as well as the results of predictions using LLM. The code itself for using large language models is here: https://github.com/acid-design-lab/LLM_classifier
-- Linking_AE_training - This folder contains the training pipelines of the linking VAE used to trasform text embeddings into image embeddings. Due to the large size, checkpoints for this model are not presented, but can be obtained by training.
-- Text_embedding_predictions - This folder contains a pipeline of nanomaterial shape predictions from textual embeddings of synthesis procedures derived from the BERT model.
-- Text_to_image_inference - This folder contains code to generate new images using text-to-image models, but the checkpoints of all models are not represented due to their large size, so they can be re-trained on existing datasets. Also examples of generation for one of the models are presented .
-- VAE_training - This folder contains the pipelines for training VAE to compress images into vector representations, whose decoder is used to generate them. Due to the large size, checkpoints for this model are not presented, but can be obtained by training.
+- **Classical_ML**. This folder contains the code to run a pipline to calculate the prediction accuracies of classical machine learning models. The code is launched through classification_results.ipynb. The folder also contains the results in the corresponding .csv files, in particular for different test and training splits. Checkpoints for each model are also in the corresponding folders.
+- **Dataset**. This folder contains the original labeled and unlabeled dataset, templates for texts of syntheses, and original scanning electron microscope images of nanomaterials. Also here is one of the augmented datasets for building text-to-image models, but the other datasets used in text-to-image can be obtained using the original one using scripts for ImageJ.
+- **Feature_selection**. This folder contains a notebook for performing statistical tests and data analysis on a tabular dataset.
+- **ImageJ_scripts**. Here are scripts for ImageJ that allow you to segment your source images (Segmentation.ijm), then augment them by adding different variations in brightness and sharpness (Augmentations.ijm), and add rotations (Rotations.ijm).
+- **LLM_dataset_preparation**. Here is a notebook for preparing the dataset for use by large language models, as well as the results of predictions using LLM. The code itself for using large language models is here: https://github.com/acid-design-lab/LLM_classifier
+- **Linking_AE_training**. This folder contains the training pipelines of the linking VAE used to trasform text embeddings into image embeddings. Due to the large size, checkpoints for this model are not presented, but can be obtained by training.
+- **Text_embedding_predictions**. This folder contains a pipeline of nanomaterial shape predictions from textual embeddings of synthesis procedures derived from the BERT model.
+- **Text_to_image_inference**. This folder contains code to generate new images using text-to-image models, but the checkpoints of all models are not represented due to their large size, so they can be re-trained on existing datasets. Also examples of generation for one of the models are presented .
+- **VAE_training**. This folder contains the pipelines for training VAE to compress images into vector representations, whose decoder is used to generate them. Due to the large size, checkpoints for this model are not presented, but can be obtained by training.
 
 ## Installation
 
